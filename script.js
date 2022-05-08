@@ -48,7 +48,6 @@ cxt.fillStyle = 'blue';
 cxt.font  = '16px Nunito';
 cxt.fillText('AHIP', 35, 10);
 cxt.fillText('SHARMA',25, 30);
-// cxt.fillText('🎶',80, 17);
 cxt.strokeStyle = 'yellow';
 cxt.strokeRect(0, 0, 100, 100);
 const textCoordinates = cxt.getImageData(0, 0, 100, 100); 
