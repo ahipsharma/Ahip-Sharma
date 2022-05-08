@@ -53,7 +53,6 @@ cxt.strokeStyle = 'yellow';
 cxt.strokeRect(0, 0, 100, 100);
 const textCoordinates = cxt.getImageData(0, 0, 100, 100); 
 
-
 class Particle{
     constructor (x,y){
         this.x = x;
