@@ -44,7 +44,7 @@ window.addEventListener('mousemove',function(event){
     mouse.radius = 50;
 });
 
-cxt.fillStyle = 'yellow';
+cxt.fillStyle = 'blue';
 cxt.font  = '16px Oleo Script Swash Caps, cursive';
 cxt.fillText('Ahip', 30, 10);
 cxt.fillText('Shar ma',25, 30);
