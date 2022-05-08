@@ -45,10 +45,10 @@ window.addEventListener('mousemove',function(event){
 });
 
 cxt.fillStyle = 'yellow';
-cxt.font  = '16px Oswald';
+cxt.font  = '16px Oleo Script Swash Caps, cursive';
 cxt.fillText('Ahip', 30, 10);
-cxt.fillText('Sharma',25, 30);
-cxt.fillText('🎶',80, 30);
+cxt.fillText('Shar ma',25, 30);
+cxt.fillText('🎶',80, 17);
 cxt.strokeStyle = 'yellow';
 cxt.strokeRect(0, 0, 100, 100);
 const textCoordinates = cxt.getImageData(0, 0, 100, 100); 
@@ -58,10 +58,10 @@ class Particle{
     constructor (x,y){
         this.x = x;
         this.y = y;
-        this.size = 3;
+        this.size = 4;
         this.baseX = this.x;
         this.baseY = this.y;
-        this.density = (Math.random() * 30) + 1;
+        this.density = (Math.random() * 5) + 1;
     }
     draw(){
         cxt.fillStyle = 'c7ff20';
