@@ -45,10 +45,10 @@ window.addEventListener('mousemove',function(event){
 });
 
 cxt.fillStyle = 'blue';
-cxt.font  = '16px Oleo Script Swash Caps, cursive';
-cxt.fillText('Ahip', 30, 10);
-cxt.fillText('Shar ma',25, 30);
-cxt.fillText('🎶',80, 17);
+cxt.font  = '16px Nunito';
+cxt.fillText('AHIP', 35, 10);
+cxt.fillText('SHARMA',25, 30);
+// cxt.fillText('🎶',80, 17);
 cxt.strokeStyle = 'yellow';
 cxt.strokeRect(0, 0, 100, 100);
 const textCoordinates = cxt.getImageData(0, 0, 100, 100); 
@@ -57,7 +57,7 @@ class Particle{
     constructor (x,y){
         this.x = x;
         this.y = y;
-        this.size = 4;
+        this.size = 6;
         this.baseX = this.x;
         this.baseY = this.y;
         this.density = (Math.random() * 5) + 1;

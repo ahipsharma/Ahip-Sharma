@@ -14,7 +14,6 @@ body{
     display: flex;
     justify-self: center;
     min-height: 100vh;
-    background: red;
     background-image: url('Images/WhatsApp Image 2022-05-08 at 12.26.59 PM.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
